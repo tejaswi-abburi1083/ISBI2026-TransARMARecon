@@ -133,4 +133,10 @@ Mori, S., Oishi, K., Faria, A. V., & van Zijl, P. C. M. (2008). MRI Atlas of Hum
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases
 ```
 ## Dataset Acknowledgment
-Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report.
+Data used in the preparation of this work were obtained from the following sources:
+
+Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu).
+The investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in the analysis or writing of this report.
+
+Neuroimaging in Frontotemporal Dementia (NIFD) database (ida.loni.usc.edu).
+The NIFD investigators contributed to the acquisition and sharing of data but were not involved in the analysis or interpretation presented in this work.
