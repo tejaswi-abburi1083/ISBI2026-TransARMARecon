@@ -96,7 +96,14 @@ ISBI2026-TransARMARecon/
    ```bash
    pip install -r requirements.txt
    ```
-## Note
+## Data
+We use diffusion MRI data from two publicly available neuroimaging databases:
+Alzheimer’s Disease Neuroimaging Initiative (ADNI): Used for Alzheimer’s Disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN) subjects. Due to data access restrictions, users must apply for access directly at [adni.loni.usc.edu](https://adni.loni.usc.edu/)
+
+Neuroimaging in Frontotemporal Dementia (NIFD): Used for Control and Patient subjects. The dataset can be accessed through the [NIFD database](https://ida.loni.usc.edu/login.jsp) upon registration and approval.
+
+Example subjects with the expected directory structure are provided in the Example_Subjects_ADNI/ and Example_Subjects_NIFD/ folders.
+#### Note
 Before executing any classification or reconstruction scripts, please ensure that the Fractional Anisotropy (FA) histogram feature paths are correctly specified in your code.
 
 Pre-extracted FA histogram features for all subject categories are provided within the repository for reference:
@@ -115,10 +122,6 @@ For example:
 ```
 fa_path = "./Histogram_Features_ADNI/Histogram_CN_FA_20bin_updated.npy"
 ```
-## Data
-
-We use diffusion MRI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Due to data access restrictions, users need to apply for access to the ADNI database directly. An example subject with the expected data structure is provided in the directory.
-
 ## Atlas Acknowledgment
 The atlas used for the study is JHU-ICBM-labels-1mm.nii.gz and has been derived from the JHU ICBM-DTI-81 White-Matter Labels Atlas created by the Laboratory of Brain Anatomical MRI, Johns Hopkins University.
 
