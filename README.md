@@ -118,6 +118,7 @@ fa_path = "./Histogram_Features_ADNI/Histogram_CN_FA_20bin_updated.npy"
 ## Data
 
 We use diffusion MRI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Due to data access restrictions, users need to apply for access to the ADNI database directly. An example subject with the expected data structure is provided in the directory.
+
 ## Atlas Acknowledgment
 The atlas used for the study is JHU-ICBM-labels-1mm.nii.gz and has been derived from the JHU ICBM-DTI-81 White-Matter Labels Atlas created by the Laboratory of Brain Anatomical MRI, Johns Hopkins University.
 
@@ -128,7 +129,5 @@ Mori, S., Oishi, K., Faria, A. V., & van Zijl, P. C. M. (2008). MRI Atlas of Hum
 ```
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases
 ```
-## Acknowledgments
-
+## Dataset Acknowledgment
 Data used in the preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report.
-
