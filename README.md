@@ -1,13 +1,9 @@
-# TransARMARecon: A Transductive ARMA-based Graph Neural Network with Sparse Labels for Neurodegenerative Diseases
+# ARMARecon: An ARMA Convolutional Filter based Graph Neural Network for Neurodegenerative Dementias Classsification
 ## Overview: 
-TransARMARecon is a framework for Alzheimer’s Disease (AD) classification using diffusion MRI data under a transductive learning setup.
-The method constructs brain graphs based on region-wise connectivity features derived directly from diffusion MRI and employs histogram-based connectivity representations to capture the distribution of brain connectivity patterns.
-
-High-dimensional diffusion MRI data are first projected into compact, lower-dimensional histogram-based features, which are then fed into the proposed TransARMARecon network.
-The model leverages ARMA-based graph convolutional layers to achieve efficient signal reconstruction and robust classification, even with sparse label availability.
+ARMARecon is a diffusion MRI–based graph learning framework designed for early detection of neurodegenerative diseases such as Alzheimer’s and Frontotemporal Dementia. The method integrates ARMA graph filtering with a reconstruction-driven objective, enhancing feature robustness and classification accuracy even with limited labeled data. By constructing a complete subject-level graph where each node represents FA-based features, ARMARecon captures both local and global brain connectivity patterns, overcoming the over-smoothing issue common in traditional GNNs. Experiments on ADNI and NIFD datasets demonstrate superior generalization and stability compared to classical machine learning and graph-based baselines.
 # Repository Structure
 ```
-ISBI2026-TransARMARecon/
+ISBI2026-ARMARecon/
 ├── Classification_Scripts/
 │ ├── CN_AD/
 │ │ ├── GNN_Classifier_CN_AD/
